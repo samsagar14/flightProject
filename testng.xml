@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testng">
+<listeners>
+		<listener class-name="com.org.flightscan.extentReports.ExtentReporterNG" />
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.org.flightscan.BookingHomePageTest"/>
+      <class name="com.org.flightscan.BookSecondFlightTest"/>
+      <class name="com.org.flightscan.LoginPageTest"></class>
+			
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- testng -->
