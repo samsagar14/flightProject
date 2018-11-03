@@ -1,5 +1,5 @@
 # flightProject
-This is a selenium TestNg and Maven automation Project for the flight booking website.
+This is a Selenium+TestNg+Maven automation Project for the flight booking website.
 
 Test cases for the website are:
 Login Authentication assertions
